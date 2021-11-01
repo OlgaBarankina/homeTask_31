@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6F6E7B0"
+    android:backgroundTint="#E6F6E7B0">
+
+    <TextView
+        android:id="@+id/tvQuotes1"
+        android:layout_width="163dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="24dp"
+        android:text="Жизнь - это то, что с тобой происходит, пока ты строишь планы\n(Федор Достоевский)"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btQuotesStart" />
+
+    <TextView
+        android:id="@+id/tvQuotes2"
+        android:layout_width="174dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="16dp"
+        android:text="Победа - это еще не все, все - это постоянное желание побеждать\n(Стив Джобс)"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvQuotes1" />
+
+    <TextView
+        android:id="@+id/tvQuotes3"
+        android:layout_width="234dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="72dp"
+        android:text="Два самых важных дня в твоей жизни: день, когда ты появился на свет, и день, когда понял, зачем\n(Генри Форд)"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.012"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvQuotes2" />
+
+    <Button
+        android:id="@+id/btQuotesStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Quotes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btQuotesBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:gravity="center"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivjobs"
+        android:layout_width="86dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/tvQuotes2"
+        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/jobs" />
+
+    <ImageView
+        android:id="@+id/ivdostoevskyi"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="128dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tvQuotes1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dostoevskyi" />
+
+    <ImageView
+        android:id="@+id/ivford"
+        android:layout_width="99dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="236dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tvQuotes3"
+        app:srcCompat="@drawable/ford" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

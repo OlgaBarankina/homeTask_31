@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/homeTask_31/app/src/main/res/layout/activity_Kyiv.xml" value="0.27181467181467184" />
+        <entry key="..\:/homeTask_31/app/src/main/res/layout/activity_author.xml" value="0.25" />
+        <entry key="..\:/homeTask_31/app/src/main/res/layout/activity_emotions.xml" value="0.22" />
+        <entry key="..\:/homeTask_31/app/src/main/res/layout/activity_jokes.xml" value="0.18" />
+        <entry key="..\:/homeTask_31/app/src/main/res/layout/activity_kyiv.xml" value="0.15390625" />
+        <entry key="..\:/homeTask_31/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/homeTask_31/app/src/main/res/layout/activity_omens.xml" value="0.18" />
+        <entry key="..\:/homeTask_31/app/src/main/res/layout/activity_pictures.xml" value="0.25" />
+        <entry key="..\:/homeTask_31/app/src/main/res/layout/activity_quotes.xml" value="0.18" />
+        <entry key="..\:/homeTask_31/app/src/main/res/layout/activity_seaview.xml" value="0.18" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

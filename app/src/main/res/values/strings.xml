@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">homeTask_31</string>
+        <string name="pictures">Pictures</string>
+        <string name="jokes">Jokes</string>
+        <string name="omens">Omens</string>
+        <string name="quotes">Quotes</string>
+        <string name="sea_views">Sea Views</string>
+        <string name="emotions_pictures">Pictures of Emotions</string>
+        <string name="about_author">About Author</string>
+</resources>

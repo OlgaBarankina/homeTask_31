@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btPicturesStart"
+        style="@style/Basics"
+        android:layout_marginTop="52dp"
+        android:text="@string/pictures"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btJokesStart"
+        style="@style/Basics"
+        android:layout_marginTop="16dp"
+        android:text="@string/jokes"
+        app:layout_constraintTop_toBottomOf="@+id/btPicturesStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btOmenStart"
+        style="@style/Basics"
+        android:layout_marginTop="16dp"
+        android:text="@string/omens"
+        app:layout_constraintTop_toBottomOf="@+id/btJokesStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btQuotesStart"
+        style="@style/Basics"
+        android:layout_marginTop="16dp"
+        android:text="Quotes"
+        app:layout_constraintTop_toBottomOf="@+id/btOmenStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btSeaViewsStart"
+        style="@style/Basics"
+        android:layout_marginTop="16dp"
+        android:text="@string/sea_views"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btQuotesStart" />
+
+    <Button
+        android:id="@+id/btEmotionPicsStart"
+        style="@style/Basics"
+        android:layout_marginTop="16dp"
+        android:text="@string/emotions_pictures"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btSeaViewsStart" />
+
+    <Button
+        android:id="@+id/btAboutAuthorStart"
+        style="@style/Basics"
+        android:layout_marginTop="16dp"
+        android:text="@string/about_author"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btEmotionPicsStart" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
